@@ -62,5 +62,5 @@ class PayPal implements PaymentProcessor {
 
 /* Here we see that CreditCard, BankAccount do not support discount
  * while only PayPal does support discount
- * Therefore, we should segregate the interface.
+ * Therefore, we should segregate the interface as per Interface Segregation principle.
  */
